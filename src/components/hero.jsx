@@ -10,7 +10,7 @@ function Hero() {
         </h1>
 
         <p className="mt-6 text-gray-600 text-lg max-w-xl mx-auto">
-          Magische Hochzeitsfotografie zwischen Realität und Fantasie
+          Lass ma heiraten hihihuhuhu
         </p>
 
         <button className="mt-10 px-8 py-3 bg-black text-white rounded-full hover:scale-105 transition">

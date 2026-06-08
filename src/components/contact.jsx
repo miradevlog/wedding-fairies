@@ -4,7 +4,7 @@ function Contact() {
       <h2 className="text-3xl font-light text-center mb-6">Kontakt</h2>
 
       <p className="text-gray-600 text-center mb-12">
-        Schreibt uns für eure Hochzeitsanfrage ✨
+        Schickt uns für eure Hochzeitsanfrage
       </p>
 
       {/* Formular */}
