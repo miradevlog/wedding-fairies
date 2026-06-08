@@ -1,6 +1,6 @@
 function Portfolio() {
   return (
-    <section id="portfolio" className="py-32 px-6 bg-gray-50">
+    <section className="py-32 px-6 bg-gray-50">
 
       <h2 className="text-3xl font-light text-center mb-12">
         Portfolio

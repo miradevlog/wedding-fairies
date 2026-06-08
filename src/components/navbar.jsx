@@ -1,23 +1,30 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-white/70 backdrop-blur-xl border-b border-gray-200">
-      <div className="flex justify-between items-center px-8 py-4">
+      <div className="flex justify-between items-center px-8 py-4 max-w-6xl mx-auto">
         {/* Logo */}
-        <div className="font-semibold text-lg tracking-wide">
-        Wedding Fairies
-        </div>
+        <Link
+          to="/"
+          className="font-semibold text-lg tracking-wide hover:opacity-80 transition"
+        >
+          Wedding Fairies
+        </Link>
 
         {/* Links */}
         <div className="flex gap-8 text-sm text-gray-700">
-          <a href="#about" className="hover:text-black transition">
+          <Link to="/about" className="hover:text-black transition">
             Über uns
-          </a>
-          <a href="#portfolio" className="hover:text-black transition">
+          </Link>
+
+          <Link to="/portfolio" className="hover:text-black transition">
             Portfolio
-          </a>
-          <a href="#contact" className="hover:text-black transition">
+          </Link>
+
+          <Link to="/contact" className="hover:text-black transition">
             Kontakt
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
