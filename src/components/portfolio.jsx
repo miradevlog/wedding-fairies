@@ -1,9 +1,11 @@
 import { useState } from "react";
 
-const images = import.meta.glob("../assets/*.{webp,jpg,png}", {
+const images = import.meta.glob("../assets/**/*.{webp,jpg,png}", {
   eager: true,
   as: "url",
 });
+
+console.log(Object.keys(images));
 
 const imageList = Object.values(images);
 
