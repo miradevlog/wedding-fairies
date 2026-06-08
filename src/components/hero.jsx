@@ -1,4 +1,4 @@
-import heroImage from "../assets/Nadia_Flo-Hochzeit-web-351.webp";
+import heroImage from "../assets/24.webp";
 
 function Hero() {
   return (
